@@ -20,6 +20,10 @@ an MQTT broker; set the following environmental variables:
 - `MQTT_BASE` the base topic where all devices are listening
   (for example, `/devices`)
 
+A convenient method to run the service is with a Docker container.
+Build the image with the Dockerfile, you can choose a base image to match
+your cpu architecture, for example, use `arm32v7/ubuntu:16.04` for Raspberry Pi.
+
 ## Adding devices
 
 Midgard will automatically detect new devices that use the `MQTT_BASE` topic.

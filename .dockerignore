@@ -1,0 +1,5 @@
+.env
+.git*
+docker*
+node_modules*
+tests*
